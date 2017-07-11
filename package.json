@@ -1,0 +1,22 @@
+{
+  "name": "time_manager",
+  "version": "0.0.1",
+  "description": "Time manager extension for google chrome",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishaszu/time-manager.git"
+  },
+  "keywords": [
+    "time"
+  ],
+  "author": "mishaszu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishaszu/time-manager/issues"
+  },
+  "homepage": "https://github.com/mishaszu/time-manager#readme"
+}
