@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Time manager</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+    <!-- MAIN FILE -->
+    <script type="text/javascript" src="app.js"></script>
+    <!-- CONTROLLERS -->
+    <script type="text/javascript" src="controllers/main.controller.js"></script>
+    <!-- DIRECTIVES -->
+    <script type="text/javascript" src="directives/timeline.directives.js"></script>
+  </head>
+  <body ng-app="TimeManager">
+    <div ng-controller="MainController">
+      <h1>{{test}}</h1>
+      <timeline />
+    </div>
+  </body>
+</html>

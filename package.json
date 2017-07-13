@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mishaszu/time-manager/issues"
   },
-  "homepage": "https://github.com/mishaszu/time-manager#readme"
+  "homepage": "https://github.com/mishaszu/time-manager#readme",
+  "dependencies": {
+    "angular": "^1.5.11"
+  }
 }
