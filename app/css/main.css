@@ -1,0 +1,26 @@
+html, body, div, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  background-color: yellowgreen;
+  height: 100px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.app-time-block {
+  border-right: 1px solid green;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.pointer {
+  background-color: red;
+  height: 100px;
+  margin-left: calc(50% - 1px);
+  width:2px;
+  position: absolute;
+}

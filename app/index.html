@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>Time manager</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- ANGULARSCRIPT-->
     <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
     <!-- MAIN FILE -->
     <script type="text/javascript" src="app.js"></script>
@@ -12,8 +15,8 @@
     <script type="text/javascript" src="directives/timeline.directives.js"></script>
   </head>
   <body ng-app="TimeManager">
-    <div ng-controller="MainController">
-      <h1>{{test}}</h1>
+    <div class="app-container" ng-controller="MainController">
+      <div class="pointer"></div>
       <timeline />
     </div>
   </body>
