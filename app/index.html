@@ -7,8 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- ANGULARSCRIPT-->
     <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
     <!-- MAIN FILE -->
     <script type="text/javascript" src="app.js"></script>
+    <!-- SERVICES -->
+    <script type="text/javascript" src="services/getJson.js"></script>
+    <script type="text/javascript" src="services/googleCalendarApi.js"></script>
     <!-- CONTROLLERS -->
     <script type="text/javascript" src="controllers/main.controller.js"></script>
     <!-- DIRECTIVES -->
@@ -19,5 +23,7 @@
       <div class="pointer"></div>
       <timeline />
     </div>
+		<button id="login">Login to google</button>
+		<button id="logout">Logout from google</button>
   </body>
 </html>
