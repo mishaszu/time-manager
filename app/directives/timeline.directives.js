@@ -14,7 +14,7 @@ app.directive('timeline', function(){
           currentMargin = 0,
           element = document.getElementsByClassName('tl')[0];
 
-      element.style.marginLeft = -1 * ( (hour - 1) * 100 + hour * 1 ) + (ww / 2) - ((minutes*100)/60) + "px";
+      element.style.marginLeft = -1 * ( (hour - 1) * 100) + (ww / 2) - ((minutes*100)/60) + "px";
 
       var interval = setInterval(addMargin, 60000);
       
