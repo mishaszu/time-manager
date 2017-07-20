@@ -7,12 +7,15 @@ Chrome extension with Angular 1 to manage time
 - follow your goals
 
 ## todo
-- [ ] establish project
-- [ ] design
-- [ ] init angular application
-- [ ] create view sceleton with directives
-- [ ] google calendar authorization with service
-- [ ] google calendar getting data with service
+- [x] establish project
+- [x] design
+- [x] init angular application
+- [x] create view sceleton with directives
+- [x] google calendar authorization with service
+- [x] google calendar getting data with service
+- [ ] get data for only 1 day
+- [ ] create wrapper to display next day insted of empty after hour 24
+- [ ] move adding events from service to controller or directive
 - [ ] creating custom filter
 - [ ] google calendar change events with service
 - [ ] create goals with controller/directive
